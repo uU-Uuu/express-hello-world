@@ -12,6 +12,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.btn-primary {
+  background-color: #32608f;
+  border-color: #193048;
+  border-radius: 10px;
+}
+
 .typewriter {
   border-right: solid 5px transparent;
   white-space: nowrap;
@@ -25,7 +31,7 @@ body {
 /* text animation */
 @keyframes animated-text {
   from {
-    width: 0;
+    width: 40%;
   }
   to {
     width: 100%;
