@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
 body {
-  background-color: #81218a;
-  background-image: url("https://imgur.com/gallery/R31n2ar");
+  background-color: #000;
+  background-image: url("https://imgur.com/PFnfpkq");
   text-align: center;
   font-weight: 700;
 }
@@ -16,7 +16,7 @@ body {
   border-right: solid 5px transparent;
   white-space: nowrap;
   overflow: hidden;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   animation:
   animated-text 1.2s steps(17, end) 1s 1 normal both
@@ -25,10 +25,10 @@ body {
 /* text animation */
 @keyframes animated-text {
   from {
-    height: 0;
+    width: 0;
   }
   to {
-    height: 10%;
+    width: 100%;
   }
 }
 
